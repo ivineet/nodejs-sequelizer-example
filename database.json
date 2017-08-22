@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "tutorial",
+	  "password": "lge123"
+  },
+ 
+  "production": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "myapp"
+  }
+}
