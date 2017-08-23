@@ -1,14 +1,14 @@
 {
 	"name": "node-api",
-	"main": "server.js",
 	"dependencies": {
-		"express": "~4.0.0",
 		"body-parser": "~1.0.1",
+		"crypto": "~0.0.3",
+		"ejs": "^2.5.7",
+		"express": "~4.0.0",
 		"mysql": "~2.5.0",
-		"sequelize": "~2.0.0",
-		"crypto": "~0.0.3"
+		"sequelize": "~2.0.0"
 	},
 	"scripts": {
-    "start": "nodemon server.js"
-  }
+		"start": "nodemon server.js"
+	}
 }

@@ -8,13 +8,6 @@ module.exports = function(sequelize, DataTypes) {
     name:DataTypes.STRING
 	});
 
-	User.sync({force: true}).then(function () {
-  // Table created
-	  return User.create({
-	    id: 'J1',
-	    name: 'vineet'
-	  });
-	});
 
 
 

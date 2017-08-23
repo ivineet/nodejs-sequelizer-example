@@ -1,0 +1,35 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Index</h1>
+            <h2>Tagline</h2>
+            <p><%= tagline %></p>
+            <h2>Data</h2>
+            <ul>
+                <% data.forEach(function(data) { %>
+                    <li><%= data.name %> - <%= data.age %></li>
+                <% }); %>
+            </ul>
+
+            <p>Welcome to templating using EJS</p>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+</html>
